@@ -35,7 +35,7 @@ out = h5py.File(indir + 'unigram_ints.hdf5', mode='w')
 out['sents'] = int_sents
 out.close()
 
-# Making a binary bigram document for fastText
+# Making a compressed bigram matrix for fastText
 bivec = CountVectorizer(ngram_range=(1, 2), binary=True, min_df=5)
 X = bivec.fit_transform(text)
 save_npz(indir + 'bigram_doctermat.npz', X)
