@@ -4,7 +4,7 @@ import pandas as pd
 from scipy.sparse import load_npz
 from sklearn.decomposition import LatentDirichletAllocation as LDA
 
-from tools import tfidf_to_counts
+from stuff.tools import tfidf_to_counts
 
 # Importing the data
 filedir = 'C:/data/addm/'

@@ -10,9 +10,9 @@ from sklearn.metrics import brier_score_loss as brier_score
 from scipy.sparse import load_npz
 from keras import regularizers, optimizers
 
-from models import fastText
-from tools import limit_mem
-from metrics import binary_diagnostics, threshold, grid_metrics
+from stuff.models import fastText
+from stuff.tools import limit_mem
+from stuff.metrics import binary_diagnostics, threshold, grid_metrics
 
 # Importing the integer sequences and targets
 indir = 'C:/data/addm/'

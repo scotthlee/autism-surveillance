@@ -7,9 +7,9 @@ from sklearn.metrics import brier_score_loss as brier_score
 from sklearn.metrics import accuracy_score, f1_score
 from scipy.sparse import load_npz
 
-from models import NBSVM, simpleNBSVM
-from tools import tfidf_to_counts
-from metrics import binary_diagnostics
+from stuff.models import NBSVM, simpleNBSVM
+from stuff.tools import tfidf_to_counts
+from stuff.metrics import binary_diagnostics
 
 # Importing the data
 filedir = 'C:/data/addm/'

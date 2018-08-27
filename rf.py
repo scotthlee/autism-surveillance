@@ -9,7 +9,7 @@ from sklearn.metrics import brier_score_loss as brier_score
 from sklearn.metrics import accuracy_score, roc_auc_score, f1_score
 from scipy.sparse import load_npz
 
-from metrics import binary_diagnostics, grid_metrics, threshold
+from stuff.metrics import binary_diagnostics, grid_metrics, threshold
 
 # Importing the data
 filedir = 'C:/data/addm/'

@@ -3,7 +3,7 @@ import pandas as pd
 
 from scipy.sparse import load_npz
 
-from tools import tfidf_to_counts, decompose
+from stuff.tools import tfidf_to_counts, decompose
 
 # Importing the data
 filedir = 'C:/data/addm/'

@@ -7,8 +7,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, f1_score
 from scipy.sparse import load_npz
 
-from tools import tfidf_to_counts, decompose
-from metrics import binary_diagnostics
+from stuff.tools import tfidf_to_counts, decompose
+from stuff.metrics import binary_diagnostics
 
 # Importing the data
 filedir = 'C:/data/addm/'

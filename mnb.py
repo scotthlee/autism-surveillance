@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split, StratifiedKFold
 from sklearn.metrics import brier_score_loss as brier_score
 from scipy.sparse import load_npz
 
-from metrics import binary_diagnostics, threshold, grid_metrics
+from stuff.metrics import binary_diagnostics, threshold, grid_metrics
 
 # Importing the integer sequences and targets
 indir = 'C:/data/addm/'
