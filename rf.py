@@ -121,7 +121,7 @@ for i, seed in enumerate(seeds):
     
     # Getting the predicted probs and thresholded guesses
     pos_probs = final_mod.predict_proba(X_trim[test])[:, 1].flatten()
-    guesses = final_mod.predict(X_trim[test])
+    guesses = threshold(pos_probs, 0.47)
     test_guesses.iloc[:, i] = guesses
     bin_stats = binary_diagnostics(y[test], guesses, accuracy=True)
     print(bin_stats)
