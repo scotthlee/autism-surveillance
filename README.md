@@ -1,2 +1,2 @@
-# autism_classification
-Code from the paper [A Comparison of Machine Learning Algorithms for the Surveillance of Autism Spectrum Disorder](https://arxiv.org/abs/1804.06223).
+# autism_surveillance
+Code from the paper [A comparison of machine learning algorithms for the surveillance of autism spectrum disorder](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0222907).
